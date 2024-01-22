@@ -2,19 +2,47 @@
   <div class="grid grid-cols-3 gap-4">
     <div class="col-span-3 p-4 bg-white rounded shadow-lg">
       <h2 class="mb-4 text-xl font-bold">Lista de Productos</h2>
-      <div class="grid grid-cols-3 gap-2 mb-6">
-        <!-- Producto 1 -->
-        <div class="p-4 text-center bg-gray-100 rounded">
-          <p>Código del Producto</p>
-          <p class="text-lg font-bold">Nombre del Producto</p>
-          <p>Imagen del Producto</p>
-          <p>Estado del Stock</p>
-          <p>Precio del Producto</p>
-        </div>
-        <!-- Producto 2 -->
-        <!-- Producto 3 -->
-        <!-- ... -->
-      </div>
+      <p>20 productos encontrados</p>
+      <input type="text" placeholder="Ingrese nombre" class="mb-4">
+      <button class="px-4 py-2 mb-4 font-bold text-white bg-blue-500 rounded hover:bg-blue-700">
+        Agregar producto
+      </button>
+      <table class="w-full mb-6 table-auto">
+        <thead>
+          <tr>
+            <th class="px-4 py-2">Código</th>
+            <th class="px-4 py-2">Nombre del Producto</th>
+            <th class="px-4 py-2">Imagen</th>
+            <th class="px-4 py-2">Stock</th>
+            <th class="px-4 py-2">Precio</th>
+            <th class="px-4 py-2">Acción</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <!-- Producto 1 -->
+          <tr>
+            <td class="px-4 py-2">1201</td>
+            <td class="px-4 py-2">Laptop Gamer</td>
+            <td class="px-4 py-2"><img src="/assets/img-laptop.jpg" alt="Laptop" class="h-10 mx-auto"></td>
+            <td class="px-4 py-2">Disponible</td>
+            <td class="px-4 py-2">$1000</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">1202</td>
+            <td class="px-4 py-2">Laptop Gamer</td>
+            <td class="px-4 py-2"><img src="/assets/img-laptop.jpg" alt="Laptop" class="h-10 mx-auto"></td>
+            <td class="px-4 py-2">Disponible</td>
+            <td class="px-4 py-2">$1000</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">1203</td>
+            <td class="px-4 py-2">Laptop Gamer</td>
+            <td class="px-4 py-2"><img src="/assets/img-laptop.jpg" alt="Laptop" class="h-10 mx-auto"></td>
+            <td class="px-4 py-2">Disponible</td>
+            <td class="px-4 py-2">$1000</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>

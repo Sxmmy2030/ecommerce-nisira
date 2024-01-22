@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { PedidosComponent } from './pedidos/pedidos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MatListModule } from '@angular/material/list';
     HomeComponent,
     ProductComponent,
     NotfoundComponent,
-    SidebarComponent
+    SidebarComponent,
+    PedidosComponent
   ],
   imports: [
     BrowserModule,
